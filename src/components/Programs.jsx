@@ -4,7 +4,7 @@ import div1 from '../assets/div.png'
 // import div3 from '../assets/div3.png'
 const Programs = () => {
   return (
-    <div   id='programs' className='h-screen lg:flex px-5 lg:pt-[100px]'>
+    <div   id='programs' className='h-screen lg:flex px-5 lg:pt-[50px]'>
         <div className='lg:w-2/6 h-1/3 lg:h-full '> 
           <div className='h-full lg:h-4/6 overflow-y-scroll no-scrollbar mt-14  md:pl-[100px] '>
             <img className=' w-full md:w-[90%]  my-4 hover:scale-105 duration-300' src={div1} alt="" />
@@ -16,7 +16,7 @@ const Programs = () => {
           </div>
         
         </div>
-        <div className='lg:w-4/6 h-2/3 flex flex-col items-center'>
+        <div className='lg:w-4/6  h-2/3 flex flex-col items-center lg:mb-2'>
             <div className='text-center  lg:my-8 sm:my-4'>
             <p className='text-white text-2xl md:text-4xl font-bold mb-2'>Lorem Ipsum Dolor </p>
         
