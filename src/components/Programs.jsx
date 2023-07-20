@@ -16,16 +16,16 @@ const Programs = () => {
           </div>
         
         </div>
-        <div className='lg:w-4/6   flex flex-col items-center'>
-            <div className='text-center  lg:my-8 my-4'>
-            <p className='text-white text-4xl font-bold mb-2'>Lorem Ipsum Dolor </p>
+        <div className='lg:w-4/6 h-2/3 flex flex-col items-center'>
+            <div className='text-center  lg:my-8 sm:my-4'>
+            <p className='text-white text-2xl md:text-4xl font-bold mb-2'>Lorem Ipsum Dolor </p>
         
-            <p className=' text-4xl font-bold text-[#FED25B]'> lorem ipsum</p>
+            <p className=' text-2xl md:text-4xl font-bold text-[#FED25B]'> lorem ipsum</p>
 
             </div>
-            <div className='bg-[#333572] lg:w-2/3 lg:px-20 lg:py-10 p-10 rounded-[50px] py-2'>
-                <h1 className='text-[#FFC853] text-[30px] text-center mb-10'>Lorem Ipsum Dolor</h1>
-                <p className='text-white text-center text-base font-medium mb-10'>Enim in cupidatat consectetur eiusmod nostrud labore et velit culpa commodo. Ipsum anim reprehenderit id nostrud ullamco mollit sunt. Id enim consequat irure aute est qui veniam officia consectetur do sint cillum. Enim in cupidatat consectetur eiusmod nostrud labore et velit culpa commodo. Ipsum anim reprehenderit id nostrud ullamco mollit sunt. Id enim consequat irure aute est qui veniam officia consectetur do sint cillum. Enim in cupidatat consectetur eiusmod nostrud labore et velit culpa commodo. Ipsum anim reprehenderit id nostrud ullamco mollit sunt. Id enim consequat irure aute est qui veniam officia consectetur do sint cillum.</p>
+            <div className='bg-[#333572] lg:w-2/3 lg:px-20 lg:py-10 sm:p-10 rounded-[50px] py-2 px-2'>
+                <h1 className='text-[#FFC853] text-2xl text-center sm:mb-10 mb-3'>Lorem Ipsum Dolor</h1>
+                <p className='text-white text-center text-xs sm:text-xl font-medium sm:mb-10 '>Enim in cupidatat consectetur eiusmod nostrud labore et velit culpa commodo. Ipsum anim reprehenderit id nostrud ullamco mollit sunt. Id enim consequat irure aute est qui veniam officia consectetur do sint cillum. Enim in cupidatat consectetur eiusmod nostrud labore et velit culpa commodo. Ipsum anim reprehenderit id nostrud ullamco mollit sunt. Id enim consequat irure aute est qui veniam officia consectetur do sint cillum. Enim in cupidatat consectetur eiusmod nostrud labore et velit culpa commodo. Ipsum anim reprehenderit id nostrud ullamco mollit sunt. Id enim consequat irure aute est qui veniam officia consectetur do sint cillum.</p>
                 <div className='text-center'>
                 <button className='px-10 py-2 bg-indigo-200 rounded-[10px] ' >Join Now</button>
 

@@ -3,17 +3,17 @@ import { data } from '../data/horizontal'
 
 const Blog = () => {
   return (
-    <div  name = "blog" className='h-screen px-[100px] py-[40px] '>
-        <div className='text-4xl sm:text-[40px] md:text-[50px] lg:text-[70px]'>
-            <p className='text-[#AFCCF8]  font-[600] text-center'>
+    <div  name = "blog" className='h-screen sm:px-[100px] sm:py-[60px] px-[40px] py-[20px]'>
+        <div className='text-2xl sm:text-[40px] md:text-[50px] lg:text-[70px]'>
+            <p className='sm:mb-8 lg:mb-12 text-[#AFCCF8]  font-[600] text-center'>
             Lorem Ipsum Dolor Emitt
 
             </p>
-            <p  className = 'text-[#F2BD4D]  font-[600] text-center'>Enim id enim et non</p>
+            <p  className = 'text-[#F2BD4D]  font-[600] text-center sm:mb-12 '>Enim id enim et non</p>
         </div>
        
        
-       <div className='flex  overflow-x-auto custom-scrollbar space-x-[200px] w-full mt-6'>
+       <div className='flex  overflow-x-auto custom-scrollbar space-x-[200px] w-full mt-6 '>
             
                 <div className=' flex-shrink-0 text-white '>
                     <img className=' h-[500px]    object-cover   hover:scale-105 duration-300' src={data[0].img} alt="/" />

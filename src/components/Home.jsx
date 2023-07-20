@@ -5,11 +5,11 @@ const Home = () => {
     <div>
       <div name = "home" className='flex justify-center items-center  z-100 absolute bottom-[300px]  w-full  '>
         <div className='mb-[70px]'>
-          <p className='text-white text-4xl font-bold mb-2'>Enim in  consectetur eiusod,</p>
+          <p className='text-white text-2xl sm:text-4xl font-bold mb-2'>Enim in  consectetur eiusod,</p>
           
-          <p className='text-center text-4xl font-bold text-[#FED25B]'>Enim id enim et non</p>
+          <p className='text-center text-2xl sm:text-4xl font-bold text-[#FED25B]'>Enim id enim et non</p>
           <div className='flex justify-center mt-[60px]'>
-            <button className='bg-[#514ED8] text-white px-[120px] py-3 rounded-lg'>Explore</button>
+            <button className='bg-[#514ED8] text-white px-[80px] sm:px-[120px] py-3 rounded-lg'>Explore</button>
 
           </div >
           
